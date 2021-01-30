@@ -1,0 +1,197 @@
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  background: #001821;
+  color: #fff;
+  line-height: 1.42;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.hero {
+  margin-bottom: 246px;
+}
+
+.header {
+  height: 120px;
+  position: relative;
+  margin-bottom: 69px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 22px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 32px;
+  left: 165px;
+}
+
+.contacts {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  font-style: normal;
+  text-align: right;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 50px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #da0100;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 35px;
+}
+
+.contacts__dropdown-title {
+  line-height: 4px;
+  font-size: 13px;
+  color: #98a4a8;
+  text-decoration: underline;
+}
+
+.contacts__dropdown-title:hover {
+  color: #fff;
+}
+
+.hero__text-section {
+  width: 520px;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 28px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-bottom: 34px;
+}
+
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 18px 40px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #da0100;
+}
+
+.page__content-title {
+  font-weight: bold;
+  line-height: 49px;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 51px;
+}
+
+.page__content-title::after {
+  content: url(img/flame.png);
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 4px;
+}
+
+.last__tours-item {
+  display: inline-block;
+  width: 362px;
+  background-color: #fff;
+  margin-right: 23px;
+  border-radius: 5px;
+}
+
+.last__tours-item:last-child {
+  margin-right: 0;
+}
+
+.last__tours-content {
+  width: 324px;
+  margin: 0 auto;
+}
+
+.last__tours-logo {
+  margin-bottom: 33px;
+}
+
+.last__tours-item_title {
+  color: #000;
+  font-weight: bold;
+  line-height: 33px;
+  font-size: 24px;
+  margin-bottom: 22px;
+}
+
+.last__tours-date {
+  display: inline-block;
+  color: #666666;
+  font-size: 16px;
+  line-height: 21.79px;
+}
+
+.last__tours-date::before {
+  content: url(img/calendar.png);
+  margin: 0 7px;
+  display: inline-block;
+  top: 10px;
+}
