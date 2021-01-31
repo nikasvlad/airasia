@@ -10,23 +10,25 @@
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
+    <header class="header">
+      <div class="container">
+        <a href="#" class="header__icon"><img src="img/logo.png" alt="logo icon AirAsia" class="logo"></a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
+          </ul>
+        </nav>
+        <address class="contacts">
+          <a href="tel:+78000039210" class="contacts__phone">8 800 700 30 30</a>
+          <div class="contacts__dropdown-title">График работы</div>
+        </address>
+      </div class="container">
+    </header>
     <section class="hero">
       <div class="container">
-        <header class="header">
-          <a href="#" class="header__icon"><img src="img/logo.png" alt="logo icon AirAsia" class="logo"></a>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
-              <li class="menu__item"><a href="#" class="menu__link">Отзывы</a></li>
-            </ul>
-          </nav>
-          <address class="contacts">
-            <a href="tel:+78000039210" class="contacts__phone">8 800 700 30 30</a>
-            <div class="contacts__dropdown-title">График работы</div>
-          </address>
-        </header>
         <div class="hero__content">
           <div class="hero__text-section">
             <h1 class="hero__title">
@@ -38,7 +40,6 @@
             <a href="#" class="btn">Подробнее</a>
           </div>
         </div>
-      </div class="container">
     </section>
     <section class="page-content">
       <div class="container">
@@ -48,13 +49,13 @@
             <img src="img/river.png" class="last__tours-logo" alt="Tour river">
             <div class="last__tours-content">
               <h2 class="last__tours-item_title">Таиланд</h2>
-              <div class="last__tours-date">7-12 ночей</div>
-              <div class="last__tours-food">Завтраки</div>
-              <p class="last__tours-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit
-                nisi earum veritatis illum neque quam,
-                architecto quae itaque exercitationem aliquid totam soluta ut facere quisquam magni. Adipisci,
-                quis fugit ! </p>
-              <a href="#" class="btn__view">Смотреть</a>
+              <div class="last__tours-info_about">
+                <div class="last__tours-date">7-12 ночей</div>
+                <div class="last__tours-food">Завтраки</div>
+              </div>
+              <p class="last__tours-about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                значение систем массового участия. </p>
+              <a href="#" class="btn__view active">Смотреть</a>
             </div>
           </div>
           <div class="last__tours-item">
@@ -65,10 +66,8 @@
                 <div class="last__tours-date">7-12 ночей</div>
                 <div class="last__tours-food">Завтраки</div>
               </div>
-              <p class="last__tours-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit
-                nisi earum veritatis illum neque quam,
-                architecto quae itaque exercitationem aliquid totam soluta ut facere quisquam magni. Adipisci,
-                quis fugit ! </p>
+              <p class="last__tours-about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                значение систем массового участия.</p>
               <a href="#" class="btn__view">Смотреть</a>
             </div>
           </div>
@@ -80,64 +79,106 @@
                 <div class="last__tours-date">7-12 ночей</div>
                 <div class="last__tours-food">Завтраки</div>
               </div>
-              <p class="last__tours-about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure reprehenderit
-                nisi earum veritatis illum neque quam,
-                architecto quae itaque exercitationem aliquid totam soluta ut facere quisquam magni. Adipisci,
-                quis fugit ! </p>
-              <a href="#" class="btn__view">Смотреть</a>
-            </div class="last__tours-content" v>
+              <p class="last__tours-about">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
+                значение систем массового участия.</p>
+              <a href="#" class="btn__view active">Смотреть</a>
+            </div class="last__tours-content">
           </div>
         </div>
       </div>
     </section>
-    <!-- <section class="news">
+    <section class="news">
       <div class="container">
         <h2 class="news__title">Новости и акции</h2>
-        <div class="news__offers-1"><a href="#" class="news__logo"><img src="" alt=""></a>
-          <div class="news__date">Декабрь 2019</div>
-          <h3 class="news__slogan">Дешёвые путевки на Новый Год !</h3>
-          <div class="news__text">Проведи Новый Год в Таиланде</div>
-        </div>
-        <div class="news__offers-2"><a href="#" class="news__logo"><img src="" alt=""></a>
-          <div class="news__date">Декабрь 2019</div>
-          <h3 class="news__slogan">Акции для серфингистов !</h3>
-          <div class="news__text">В сезон больших волн скидка на путёвку в Таиланд на остров серифнгистов. Удачного пути
-            ! </div>
-        </div>
-        <div class="page-number">Страница 1 из 7</div>
-        <ul class="news__list">
-          <li class="news__list-items"><a href="#" class="news__list-items__link">1</a></li>
-          <li class="news__list-items"><a href="#" class="news__list-items__link">2</a></li>
-          <li class="news__list-items"><a href="#" class="news__list-items__link">3</a></li>
-          <li class="news__list-items"><a href="#" class="news__list-items__link">4</a></li>
-          <li class="news__list-items"><a href="#" class="news__list-items__link">5</a></li>
-          <li class="news__list-items"><a href="#" class="news__list-items__link">6</a></li>
-          <li class="news__list-items"><a href="#" class="news__list-items__link">7</a></li>
+        <ul class="news__offer">
+          <li class="news__offer-child">
+            <a href="#" class="news__logo">
+              <img src="img/plain.png" alt="Plain" class="news__logo">
+              <div class="news__offer-text">
+                <div class="news__date">Декабрь 2019</div>
+                <h3 class="news__slogan">Дешёвые путевки на Новый Год!</h3>
+                <div class="news__text">Проведи Новый Год в Тайланде</div>
+              </div class="news__offer-text">
+            </a>
+          </li>
+          <li class="news__offer-child">
+            <a href="#" class="news__logo">
+              <img src="img/Surfer.png" alt="Surfer" class="news__logo">
+              <div class="news__offer-text">
+                <div class="news__date">Декабрь 2019</div>
+                <h3 class="news__slogan">Акция для серфингистов!</h3>
+                <div class="news__text">В сезон больших волн скидка на путёвку в Таиланд на остров серфенгистов.
+                  Удачного
+                  пути! </div>
+              </div class="news__offer-text">
+            </a>
+          </li>
         </ul>
+        <div class="news__list">
+          <div class="page-number">Страница 1 из 7</div>
+          <ul class="news__list-number">
+            <li class="news__list-items"><a href="#" class="news__list-items__link active">1</a></li>
+            <li class="news__list-items"><a href="#" class="news__list-items__link">2</a></li>
+            <li class="news__list-items"><a href="#" class="news__list-items__link">3</a></li>
+            <li class="news__list-items"><a href="#" class="news__list-items__link">4</a></li>
+            <li class="news__list-items"><a href="#" class="news__list-items__link">5</a></li>
+            <li class="news__list-items"><a href="#" class="news__list-items__link">6</a></li>
+            <li class="news__list-items"><a href="#" class="news__list-items__link">7</a></li>
+          </ul>
+        </div class="news__list">
       </div>
     </section>
     <section class="about-us">
-      <div class="abouts__title">О нас</div>
-      <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum fuga fugiat sapiente modi
-        tempora maxime accusantium? Delectus deserunt eligendi similique enim odio quo atque tenetur ! Explicabo
-        expedita dicta cum. Excepturi !</p>
-      <a href="#" class="btn">Подробнее</a>
+      <div class="container">
+        <div class="about__content">
+          <div class="about__gates">
+            <img src="img/gates.png" alt="Gates" class="about__gates-img">
+          </div class="about__gates">
+          <div class="about__info">
+            <div class="about__info-content">
+              <img src="img/mountains.png" alt="Mountains" class="about__info-mountains">
+              <div class="about__mountains-content">
+                <div class="about__content-title">О нас</div>
+                <p class="about__content-text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать
+                  несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору
+                  отточить навык публичных выступлений в домашних условиях. </p>
+                <a href="#" class="btn">Подробнее</a>
+              </div class="about__mountains-content">
+            </div class="about__info">
+          </div class="about__info">
+        </div class="about__content">
+      </div class="container">
     </section>
     <section class="footer-content">
-      <footer class="footer-block"><a href="#" class="footer__logo"><img src="" alt=""></a>
+      <footer class="footer-block">
         <div class="container">
-          <nav class="footer__nav"><a href="#" class="footer__list">Главная</a><a href="#"
-              class="footer__list">Услуги</a><a href="#" class="footer__list">Отзывы</a></nav>
-          <div class="footer__icons"><a href="#" class="footer__item"><img src="" alt=""></a><a href="#"
-              class="footer__item"><img src="" alt=""></a><a href="#" class="footer__item"><img src="" alt=""></a><a
-              href="#" class="footer__item"><img src="" alt=""></a></div>
-          <div class="footer-contact">
-            <div class="footer__contact-title">Бесплатный звонок по России</div><a href="tel:+88007003030"
-              class="footer__number">8 800 700 30 30</a>
-          </div>
+          <a href="#" class="footer__icon">
+            <img src="img/logo.png" alt="logo icon AirAsia" class="footer__logo">
+          </a>
+          <nav class="footer__menu">
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">Главная</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">Услуги</a></li>
+              <li class="footer__menu-item"><a href="#" class="footer__menu-link">Отзывы</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__socials">
+            <li class="footer__socials-list"><a href="#" class="footer__socials-list__item"><img src="img/telegram.png"
+                  alt="" class="footer__socials-icon"></a></li>
+            <li class="footer__socials-list"><a href="#" class="footer__socials-list__item"><img src="img/vk.png" alt=""
+                  class="footer__socials-icon"></a></li>
+            <li class="footer__socials-list"><a href="#" class="footer__socials-list__item"><img src="img/f.png" alt=""
+                  class="footer__socials-icon"></a></li>
+            <li class="footer__socials-list"><a href="#" class="footer__socials-list__item"><img src="img/in.png" alt=""
+                  class="footer__socials-icon"></a></li>
+          </nav>
+          <address class="footer__contacts">
+            <div class="footer__contacts-dropdown__title">Бесплатный звонок по России</div>
+            <a href="tel:+78000039210" class="footer__contacts-phone">8 800 700 30 30</a>
+          </address>
         </div>
       </footer>
-    </section> -->
+    </section>
   </div>
 </body>
 
