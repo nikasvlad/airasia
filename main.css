@@ -268,11 +268,11 @@ h6 {
 }
 
 .news {
-  margin-bottom: 139px;
+  margin-bottom: 143px;
 }
 
 .news__offer {
-  margin-bottom: 54px;
+  margin-bottom: 51px;
 }
 
 .news__title {
@@ -341,7 +341,7 @@ h6 {
   display: block;
   width: 32px;
   height: 32px;
-  line-height: 21px;
+  line-height: 28px;
   border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
@@ -360,7 +360,7 @@ h6 {
 }
 
 .about-us {
-  margin-bottom: 99px;
+  margin-bottom: 97px;
 }
 
 .about__content {
