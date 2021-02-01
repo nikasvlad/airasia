@@ -268,11 +268,11 @@ h6 {
 }
 
 .news {
-  margin-bottom: 145px;
+  margin-bottom: 139px;
 }
 
 .news__offer {
-  margin-bottom: 47px;
+  margin-bottom: 54px;
 }
 
 .news__title {
@@ -317,13 +317,15 @@ h6 {
 
 .news__list {
   text-align: center;
+  vertical-align: middle;
 }
 
 .page-number {
   display: inline-block;
   font-size: 16px;
   line-height: 20px;
-  margin-right: 12px;
+  margin-right: 26px;
+  margin-left: 8px;
 }
 
 .news__list-number {
@@ -336,8 +338,10 @@ h6 {
 }
 
 .news__list-items__link {
-  display: inline-block;
-  padding: 5px 11px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 21px;
   border-radius: 20px;
   font-size: 16px;
   font-weight: bold;
@@ -356,7 +360,7 @@ h6 {
 }
 
 .about-us {
-  margin-bottom: 100px;
+  margin-bottom: 99px;
 }
 
 .about__content {
