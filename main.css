@@ -32,14 +32,15 @@ h6 {
   font-weight: normal;
 }
 
+.main-page-wrapper {
+  background: url("./img/background/1.png") center top no-repeat, url("./img/background/2.png") right bottom 165px no-repeat;
+  color: #fff;
+}
+
 .container {
   margin: 0 auto;
   width: 1140px;
-}
-
-.main-page-wrapper {
-  background: url(img/1.png) center top no-repeat,
-    url(img/2.png) center bottom 165px no-repeat;
+  position: relative;
 }
 
 .hero {
@@ -261,7 +262,7 @@ h6 {
   color: #f5170e;
 }
 
-.active,
+.btn__view--active,
 .btn__view:hover {
   background: #fff;
   color: #f5170e;
@@ -338,12 +339,10 @@ h6 {
 }
 
 .news__list-items__link {
-  display: block;
+  display: inline-block;
   width: 32px;
-  height: 32px;
-  line-height: 28px;
-  border-radius: 20px;
-  font-size: 16px;
+  line-height: 32px;
+  border-radius: 50%;
   font-weight: bold;
   text-decoration: none;
 }
