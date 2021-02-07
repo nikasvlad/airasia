@@ -1,0 +1,407 @@
+html, body{
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  background: #fff;
+  color: #fff;
+  line-height: 1.42;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.wrapper{
+  overflow: hidden;
+  min-width: 1140px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content{
+  flex: 1;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.main-page-wrapper {
+  background: url("/img/background/headline.png") center top no-repeat;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header__wrapper{
+  display: inline-flex;
+  min-width: 428px;
+  justify-content: space-between;
+}
+
+.header {
+  height: 128px;
+  margin-bottom: 40px;
+}
+
+.header .container {
+  justify-content: space-between;
+  display: flex;
+  top: 29px;
+}
+
+.menu__list{
+  display: flex;
+  min-width: 264px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+}
+
+.menu__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #da0100;
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+  align-self: center;
+  min-height: 44px;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.contacts__dropdown-title {
+  line-height: 4px;
+  font-size: 13px;
+  color: #98a4a8;
+  text-decoration: underline;
+}
+
+.contacts__dropdown-title:hover {
+  color: #fff;
+}
+
+.hero__title{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 103.5px;
+}
+
+.hero__pages{
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #9A9A9A;
+  margin-bottom: 118.5px;
+}
+
+.hero__pages-main{
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.hero__pages-main:hover{
+  color: #DA0100;
+}
+
+.hero__pages-slash{
+  margin: 0 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hero__pages-services{
+  font-weight: bold;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.hero__pages-services:hover{
+  color: #DA0100;
+}
+
+.services .container{
+  right: -14px;
+  width: 1168px;
+}
+
+.services__list{
+  display: flex;
+  flex-direction: column;
+}
+
+.services__list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start
+}
+
+.services__list-item:first-child{
+  margin-bottom: 49px;
+}
+
+.services__list-item:last-child{
+  margin-bottom: 65px;
+}
+
+.services__list-item__content{
+  width: 652px;
+  height: 100%;
+}
+
+.services__list-item__content-title{
+  color: #000;
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 73px;
+  margin-bottom: 17px;
+}
+
+.btn--active, .btn__view:hover{
+  background: #F2F2F2;
+}
+
+.services__list-item__content-text{
+  color: #303030;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 34px;
+}
+
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 18px 39px;
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid #f5170e;
+  box-sizing: border-box;
+}
+
+.btn:hover, .btn--active{
+  background: #F2F2F2;
+  color: #F5170E;
+}
+
+.news__list {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: #000;
+  margin-bottom: 84.5px;
+}
+
+.news__list-wrapper{
+  width: 387px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-number {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.news__list-number {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.news__list-items {
+  border-radius: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.news__list-items__link {
+  display: inline-block;
+  width: 32px;
+  line-height: 32px;
+  border-radius: 50%;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.news__list-items:hover {
+  background: #fff;
+  color: #f5170e;
+}
+
+.active,
+.news__list-items:hover {
+  background: #f5170e;
+  color: #fff;
+}
+
+.partners{
+  background: #F4F5F5;
+  margin-bottom: 104px;
+}
+
+.partners__title{
+  padding-top: 87px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 65.37px;
+  color: #1A1B1E;
+  margin-bottom: 81px;
+}
+
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__list-item{
+  margin-left: 20px;
+}
+
+.partners__list-item:nth-child(4n + 1){
+  margin-left: 0px;
+}
+
+.partners__list-link{
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__list-item__img{
+  max-width: 100%;  
+}
+
+.footer-block {
+  height: 132px;
+  background: #001821;
+}
+
+.footer-block .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+.footer__wrapper{
+  display: inline-flex;
+  min-width: 428px;
+  justify-content: space-between;
+}
+
+.footer__menu-list{
+  display: flex;
+  min-width: 264px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+}
+
+.footer__contacts{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 439px;
+}
+
+.footer__contacts-address {
+  align-self: center;
+  font-style: normal;
+  text-align: right;
+}
+
+.footer__menu-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-decoration: none;
+}
+
+.footer__menu-link:hover {
+  color: #da0100;
+}
+
+.footer__socials{
+  display: flex;
+  min-width: 174px;
+  justify-content: space-between;
+}
+
+.footer__socials-list {
+  list-style: none;
+}
+
+.footer__contacts-dropdown__title {
+  line-height: 20px;
+  font-size: 11px;
+  color: #98a4a8;
+}
+
+.footer__contacts-dropdown__title:hover {
+  color: #fff;
+}
+
+.footer__contacts-phone {
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 34px;
+}
