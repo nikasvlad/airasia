@@ -1,0 +1,39 @@
+.partners{
+  background: #F4F5F5;
+  margin-bottom: 104px;
+}
+
+.partners__title{
+  padding-top: 87px;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 65.37px;
+  color: #1A1B1E;
+  margin-bottom: 81px;
+}
+
+.partners__list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners__list-item{
+  margin-left: 20px;
+}
+
+.partners__list-item:nth-child(4n + 1){
+  margin-left: 0px;
+}
+
+.partners__list-link{
+  text-decoration: none;
+  display: flex;
+  width: 270px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__list-item__img{
+  max-width: 100%;  
+}

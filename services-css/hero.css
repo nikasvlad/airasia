@@ -1,0 +1,38 @@
+.hero__title{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 103.5px;
+}
+
+.hero__pages{
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #9A9A9A;
+  margin-bottom: 118.5px;
+}
+
+.hero__pages-main{
+  font-family: "Roboto", Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.hero__pages-main:hover{
+  color: #DA0100;
+}
+
+.hero__pages-slash{
+  margin: 0 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.hero__pages-services{
+  font-weight: bold;
+  font-family: "Roboto", Helvetica, sans-serif;
+}
+
+.hero__pages-services:hover{
+  color: #DA0100;
+}
