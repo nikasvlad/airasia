@@ -1,0 +1,16 @@
+.header__wrapper {
+  display: inline-flex;
+  min-width: 428px;
+  justify-content: space-between;
+}
+
+.header {
+  height: 128px;
+  margin-bottom: 69px;
+}
+
+.header .container {
+  justify-content: space-between;
+  display: flex;
+  top: 29px;
+}

@@ -1,0 +1,52 @@
+.about__content {
+  width: 1140px;
+  position: relative;
+}
+
+.about__gates {
+  position: relative;
+  display: inline-block;
+  z-index: 5;
+}
+
+.about__info {
+  position: absolute;
+  display: inline-block;
+  z-index: 30;
+  right: 0;
+  top: 97px;
+}
+
+.about__info-content {
+  position: relative;
+  z-index: 10;
+  display: inline-block;
+  right: 0;
+  top: 97x;
+}
+
+.about__mountains-content {
+  position: absolute;
+  width: 202px;
+  top: 70px;
+  left: 81px;
+  z-index: 50;
+}
+
+.about__content-title {
+  font-weight: bold;
+  color: #000;
+  font-size: 36px;
+  line-height: 49px;
+  margin-bottom: 38px;
+}
+
+.about__content-text {
+  margin: 0;
+  width: 500px;
+  height: 135px;
+  line-height: 27px;
+  font-size: 16px;
+  color: #060606;
+  margin-bottom: 42px;
+}

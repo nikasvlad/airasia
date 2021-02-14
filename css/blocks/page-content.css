@@ -1,0 +1,19 @@
+.page__content .container{
+  display: flex;
+  flex-direction: column;
+}
+
+.page__content-title__name {
+  font-weight: bold;
+  line-height: 49px;
+  font-size: 36px;
+  position: relative;
+  margin-bottom: 31px;
+}
+
+.page__content-title__name::after {
+  content: url(/img/flame.png);
+  position: absolute;
+  margin-left: 12px;
+  margin-top: 4px;
+}

@@ -1,0 +1,22 @@
+.menu__list {
+  display: flex;
+  min-width: 264px;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100%;
+}
+
+.menu__link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.07px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #da0100;
+}
+
+.contacts__dropdown-title {
+  cursor: default;
+}

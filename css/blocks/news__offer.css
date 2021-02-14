@@ -1,0 +1,37 @@
+.news__title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 49px;
+}
+
+.news__offer {
+  margin-bottom: 48px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news__logo {
+  position: relative;
+}
+
+.news__offer-text {
+  position: absolute;
+  top: -126px;
+  left: 28px;
+}
+
+.news__date {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 12px;
+}
+
+.news__slogan {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+}
+
+.news__text {
+  font-size: 16px;
+}

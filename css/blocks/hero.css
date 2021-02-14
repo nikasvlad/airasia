@@ -1,0 +1,36 @@
+.hero {
+  margin-bottom: 246px;
+}
+
+.hero__text-section {
+  width: 520px;
+}
+
+.hero__title {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 28px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: normal;
+  margin-bottom: 34px;
+}
+
+.btn {
+  background: #f5170e;
+  border-radius: 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 18px 40px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #da0100;
+}
