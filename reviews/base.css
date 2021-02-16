@@ -46,7 +46,7 @@ h6 {
 }
 
 .main-page-wrapper {
-  background: url("/img/background/headline.png") center top no-repeat;
+  background: url("../img/background/headline.png") center top no-repeat;
   color: #fff;
 }
 
