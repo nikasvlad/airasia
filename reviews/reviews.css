@@ -4,18 +4,18 @@
 }
 
 .reviews__column {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
+  column-count: 2;
+  column-gap: 27px;
   margin-bottom: 53px;
 }
 
 .reviews__unit {
+  display: inline-flex;
+  flex-direction: column;
   background: #f4f5f5;
   color: #1a1b1e;
   width: 557px;
   margin-bottom: 17px;
-  top: 100%;
   border-radius: 5px;
 }
 

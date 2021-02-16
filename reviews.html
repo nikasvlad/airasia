@@ -77,9 +77,9 @@
                   в
                   домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
                 </div>
-                <div class="reviews__unit-about_date">
+                <date class="reviews__unit-about_date">
                   Ноябрь 2019
-                </div>
+                </date>
               </div>
             </div>
           </div>
@@ -107,14 +107,12 @@
                   в
                   домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
                 </div>
-                <div class="reviews__unit-about_date">
+                <date class="reviews__unit-about_date">
                   Ноябрь 2019
-                </div>
+                </date>
               </div>
             </div>
           </div>
-        </div>
-        <div class="reviews__column">
           <div class="reviews__unit">
             <div class="reviews__unit-wrapper">
               <div class="reviews__unit-info">
@@ -143,9 +141,9 @@
                   текст
                   более привлекательным и живым для визуально-слухового восприятия.
                 </div>
-                <div class="reviews__unit-about_date">
+                <date class="reviews__unit-about_date">
                   Ноябрь 2019
-                </div>
+                </date>
               </div>
             </div>
           </div>
@@ -173,9 +171,9 @@
                   в
                   домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей.
                 </div>
-                <div class="reviews__unit-about_date">
+                <date class="reviews__unit-about_date">
                   Ноябрь 2019
-                </div>
+                </date>
               </div>
             </div>
           </div>
@@ -209,37 +207,68 @@
           Оставьте отзыв
         </h3>
         <div class="feedback__form">
-          <div class="feedback__form-info">
-            <input type="text" class="feedback__form-info_name" placeholder="Имя">
-            <input type="text" class="feedback__form-info_name" placeholder="Ссылка на профиль VK">
-          </div>
-          <input type="text" class="feedback__form-input" placeholder="Напишите свой честный отзыв ;)">
+          <form action="" class="feedback__form-block">
+            <div class="feedback__form-info">
+              <input type="text" class="feedback__form-info_name" placeholder="Имя">
+              <input type="text" class="feedback__form-info_name" placeholder="Ссылка на профиль VK">
+            </div>
+            <div class="feedback__form-about">
+              <textarea placeholder="Напишите свой честный отзыв ;)" class="feedback__form-about_input"></textarea>
+            </div>
+          </form>
           <div class="feedback__form-services">
             <div class="feedback__form-services-title">
               Какими услугами компании пользуетесь?
             </div>
-            <ul class="feedback__form-services_choice">
-              <li class="feedback__form-services_choice-select"><button class="form-services_choice-select_one">Остров
-                  обезьян</button></li>
-              <li class="feedback__form-services_choice-select"><button class="form-services_choice-select_one">Тур по
-                  Тайланду</button></li>
-              <li class="feedback__form-services_choice-select"><button
-                  class="form-services_choice-select_one active__reviews">Водопад
-                  Янг-бей</button></li>
-              <li class="feedback__form-services_choice-select"><button class="form-services_choice-select_one">Тур по
-                  Индонезии</button></li>
-              <li class="feedback__form-services_choice-select"><button
-                  class="form-services_choice-select_one">Никакими</button></li>
-              <li class="feedback__form-services_choice-select"><button class="form-services_choice-select_one">Тур по
-                  Бали</button></li>
-              <li class="feedback__form-services_choice-select"><button
-                  class="form-services_choice-select_one">Другое</button></li>
+            <ul class="feedback__checkbox">
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Остров обезьян</div>
+                </label>
+              </li>
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Тайланду</div>
+                </label>
+              </li>
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Водопад Янг-бей</div>
+                </label>
+              </li>
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Индонезии</div>
+                </label>
+              </li>
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Никакими</div>
+                </label>
+              </li>
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Тур по Бали</div>
+                </label>
+              </li>
+              <li class="feedback__checkbox-item">
+                <label class="feedback__checkbox-item_content">
+                  <input type="checkbox" class="controls__checkbox">
+                  <div class="tag controls__tag">Другое</div>
+                </label>
+              </li>
             </ul>
           </div>
           <div class="feedback__form-services_container">
             <div class="feedback__form-services_container-buttons">
-              <button class="feedback__form-services_container-buttons_clear">Очистить</button>
-              <button class="feedback__form-services_container-buttons_send">Отправить</button>
+              <button type="reset" class="feedback__form-services_container-buttons_clear">Очистить</button>
+              <button type="submit" class="feedback__form-services_container-buttons_send">Отправить</button>
             </div>
           </div>
         </div>
