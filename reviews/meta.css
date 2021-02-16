@@ -1,0 +1,19 @@
+.meta {
+  background: url(../img/Rectangle.png);
+  min-height: 363px;
+  background-repeat: no-repeat;
+}
+
+.meta .container {
+  min-height: 363px;
+  display: flex;
+  align-items: center;
+  background: url(../img/couple.png) bottom right 33px;
+  background-repeat: no-repeat;
+}
+
+.meta__title {
+  font-weight: bold;
+  font-size: 49px;
+  line-height: 65px;
+}

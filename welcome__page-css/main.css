@@ -7,7 +7,7 @@ a {
 }
 
 body {
-  background: url(/img/background/bg.png) no-repeat;
+  background: url(../img/background/bg.png) no-repeat;
   background-size: 100%;
 }
 
@@ -21,7 +21,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: url(/img/shades.png) center center no-repeat;
+  background: url(../img/shades.png) center center no-repeat;
 }
 
 .head__login {
@@ -71,7 +71,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: 40px;
+  margin-bottom: 68px;
 }
 
 .head__login-content_logo {
@@ -94,7 +94,7 @@ body {
 .login__btn {
   box-sizing: border-box;
   text-decoration: none;
-  padding: 18px 65px;
+  padding: 18px 58px;
   border-radius: 35px;
   background: #f5170e;
   text-transform: uppercase;

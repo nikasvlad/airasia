@@ -1,4 +1,4 @@
-.last-tours{
+.last-tours {
   display: flex;
   min-width: 1140px;
   justify-content: space-between;
@@ -48,7 +48,7 @@
 }
 
 .last__tours-date::before {
-  content: url(/img/calendar.png);
+  content: url(../../img/calendar.png);
   margin: 0 7px;
   display: inline-block;
   top: 50%;
@@ -67,7 +67,7 @@
 }
 
 .last__tours-food::before {
-  content: url(/img/meal.png);
+  content: url(../../img/meal.png);
   margin: 0 9px;
   display: inline-block;
   top: 50%;
