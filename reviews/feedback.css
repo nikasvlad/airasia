@@ -29,6 +29,16 @@
   outline: none;
 }
 
+.feedback__form-info_name:focus {
+  border: 1px solid #f5170e;
+  margin-right: 27px;
+  padding-left: 29px;
+}
+
+.feedback__form-info_name:last-child:focus {
+  padding-left: 30px;
+}
+
 .feedback__form-info_name:last-child {
   margin-right: 0px;
 }
@@ -54,6 +64,11 @@
   color: #666666;
   font-size: 18px;
   line-height: 21px;
+}
+
+.feedback__form-about_input:focus {
+  border: 1px solid #f5170e;
+  padding: 29px;
 }
 
 .feedback__form-services {

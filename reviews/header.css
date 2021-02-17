@@ -59,7 +59,7 @@
   color: #fff;
 }
 
-.contacts:hover .header__drop-down {
+.contacts__dropdown--hover:hover .header__drop-down {
   right: 0px;
   opacity: 0.8;
 }
